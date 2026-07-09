@@ -1,16 +1,39 @@
-# React + Vite
+# UI/UX Job Card — React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive job listings UI built with React and Vite. Renders dynamic job cards from an array of objects using props and component composition.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Dynamic rendering of job listings via `.map()`
+- Reusable `Card` component driven entirely by props
+- Icons via `lucide-react`
+- Clean section-based card layout (top / center / bottom)
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- lucide-react
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/yourusername/repo-name.git
+cd repo-name
+npm install
+npm run dev
+```
+
+## What I practiced
+
+- Passing and destructuring props
+- Component composition (`App` → `Card`)
+- Rendering lists from an array of objects
+- Using the `key` prop correctly
+- Structuring JSX into logical sections instead of a flat layout
+
+## Status
+
+First React project — built after getting a solid grip on core JavaScript. More projects to follow.
